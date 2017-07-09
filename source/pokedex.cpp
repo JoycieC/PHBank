@@ -136,10 +136,10 @@ namespace Pokedex
 			case  15: return 198; // 2 Beedrill
 			case 720: return 196; // 2 Hoopa
 			case  25: return 189; // 7 Pikachu
-			// case 720: return 196; // 2 Hoopa
-			// case  25: return 195; // 1 Cosplay Pikachu
-			// case  25: return 190; // 5 Unused (Cosplay Pikachu)
-			// case  25: return 189; // 1 Pikachu
+			case 720: return 196; // 2 Hoopa
+			case  25: return 195; // 1 Cosplay Pikachu
+			case  25: return 190; // 5 Unused (Cosplay Pikachu)
+			case  25: return 189; // 1 Pikachu
 			default: return getFormDexOffsetXY(species);
 		}
 	}
